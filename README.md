@@ -10,10 +10,12 @@ RTTI-based automatic language translator engine.
    RTTI-based automatic language translator engine.  
   
 --------------------------------------------------------------------------------------------------------------  
+
    DESCRIPTION  
      This class will translate all GUI strings (for example TLabel.Caption, TLabel.Hint, TMenuItem.Caption)  
      for all live forms in your application.  
      The text is stored in a INI file which can be sent to DeepL or GoogleTranslate for translation.  
+     
 --------------------------------------------------------------------------------------------------------------  
   
    Advantages  
@@ -45,6 +47,7 @@ RTTI-based automatic language translator engine.
           Proposed solution: If the strings are embeded as resources, we can translated them life.  
   
 --------------------------------------------------------------------------------------------------------------  
+
    HOW TO USE IT  
   
     1. To load a language into all LIVE forms in your app:  
@@ -92,5 +95,6 @@ RTTI-based automatic language translator engine.
   
     TESTER  
        c:\Myprojects\Packages\CubicCommonControls\Demo\Translation system\TranslatorTester.dpr  
+       
 --------------------------------------------------------------------------------------------------------------  
   
