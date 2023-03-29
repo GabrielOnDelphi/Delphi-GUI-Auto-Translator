@@ -39,6 +39,7 @@ RTTI-based automatic language translator engine.
      Clean code, documented, tested (mostly) & Demo app  
   
    Limitations  
+   
        1. Cannot translate forms that are not live (naturally)  
           Proposed solution: Add a flag like TTranslator.LiveTranslation. When a new form is create it will check the flag. If the flag is true, the form will save itself to the English INI file.  
   
