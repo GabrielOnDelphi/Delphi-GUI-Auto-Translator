@@ -6,19 +6,19 @@ RTTI-based automatic language translator engine.
    Gabriel Moraru / Heracle BioSoft SRL  
    2022-09  
    See Copyright.txt  
-  
    RTTI-based automatic language translator engine.  
   
 -----------------------------------------------------------------------------------------  
 
-   DESCRIPTION  
+   **DESCRIPTION**  
      This class will translate all GUI strings (for example TLabel.Caption, TLabel.Hint, TMenuItem.Caption)  
      for all live forms in your application.  
      The text is stored in a INI file which can be sent to DeepL or GoogleTranslate for translation.  
+     This library requires the [LightSaber Core](https://github.com/GabrielOnDelphi/Delphi-LightSaber-CoreLib) library.
      
 -----------------------------------------------------------------------------------------  
   
-   Advantages  
+   **Advantages** 
      Changing language is life without need to restart app  
      The text translated can be seen live, as we translate it  
      User can create his own translations easily (with the included utility)  
@@ -38,7 +38,7 @@ RTTI-based automatic language translator engine.
         Low dependency  
      Clean code, documented, tested (mostly) & Demo app  
   
-   Limitations  
+   **Limitations**  
    
        1. Cannot translate forms that are not live (naturally)  
           Proposed solution: Add a flag like TTranslator.LiveTranslation. When a new form is create it will check the flag. If the flag is true, the form will save itself to the English INI file.  
@@ -49,7 +49,7 @@ RTTI-based automatic language translator engine.
   
 --------------------------------------------------------------------------------------------------------------  
 
-   HOW TO USE IT  
+   **HOW TO USE IT**  
   
     1. To load a language into all LIVE forms in your app:  
   
@@ -86,12 +86,12 @@ RTTI-based automatic language translator engine.
   
 --------------------------------------------------------------------------------------------------------------  
   
-    INFO  
+    **INFO**  
        The path where the translation files are stored is returned by GetLangFolder().  
        If no translation if found in the INI file for a GUI control, its text will be left untranslated.  
        Mark controls that should not be translated (for ex, labels that will have their caption changed dynamically) with Tag=128  
   
-    WARNING  
+    **WARNING**  
        Make sure you make your GUI controls (lables, buttons, etc) large enough. Some languages require more space (more charaters) than others.  
   
     TESTER  
