@@ -18,8 +18,8 @@ RTTI-based automatic language translator engine.
 
 **Downloading the code**  
 
-This repository is only a placeholder and source of information. It is not updated since 25.01.2023.
-The code should be downloaded now from https://github.com/GodModeUser/Delphi-LightSaber
+This repository is only a placeholder and source of information. It is not updated since 01.2023.
+The code should be downloaded now from the [LightSaber Core](https://github.com/GabrielOnDelphi/Delphi-LightSaber) repository.
 
 _________________
      
