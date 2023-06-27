@@ -10,15 +10,17 @@ RTTI-based automatic language translator engine.
   
 -----------------------------------------------------------------------------------------  
 
-   **DESCRIPTION**  
+   **DESCRIPTION**    
      This class will translate all GUI strings (for example TLabel.Caption, TLabel.Hint, TMenuItem.Caption)  
      for all live forms in your application.  
-     The text is stored in an INI file which can be sent to DeepL or GoogleTranslate for translation.  
+     The text is stored in an INI file which can be sent to DeepL or GoogleTranslate for translation. 
+
+   **SOURCE CODE**   
      This library is now part of the [LightSaber Core](https://github.com/GabrielOnDelphi/Delphi-LightSaber-CoreLib) library.
      
 -----------------------------------------------------------------------------------------  
   
-   **Advantages** 
+   **Advantages**   
      Changing language is life without the need to restart the app  
      The text translated can be seen live, as we translate it  
      The user can create his own translations easily (with the included utility)  
