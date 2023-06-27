@@ -15,10 +15,14 @@ RTTI-based automatic language translator engine.
      for all live forms in your application.  
      The text is stored in an INI file which can be sent to DeepL or GoogleTranslate for translation. 
 
-   **SOURCE CODE**   
-     This library is now part of the [LightSaber Core](https://github.com/GabrielOnDelphi/Delphi-LightSaber-CoreLib) library.
+
+**Downloading the code**  
+
+This repository is only a placeholder and source of information. It is not updated since 25.01.2023.
+The code should be downloaded now from https://github.com/GodModeUser/Delphi-LightSaber
+
+_________________
      
------------------------------------------------------------------------------------------  
   
    **Advantages**   
      Changing language is life without the need to restart the app  
