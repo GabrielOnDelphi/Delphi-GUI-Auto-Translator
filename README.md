@@ -9,13 +9,13 @@ Translate your application with only two lines of code.
 
   
   
-{======================================================================== 
+{===============================================================  
    Gabriel Moraru / Heracle BioSoft SRL  
    2022-09  
    See Copyright.txt  
    RTTI-based automatic language translator engine.  
   
----------------------------------------------------------------------------  
+----------------------------------------------------------------     
 
    **DESCRIPTION**    
      This class will translate all GUI strings (for example TLabel.Caption, TLabel.Hint, TMenuItem.Caption)  
