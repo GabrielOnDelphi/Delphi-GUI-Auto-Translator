@@ -1,5 +1,7 @@
 # DelphiLightSaber-AutoTranslator  
 RTTI-based automatic language translator engine.
+Details: https://gabrielmoraru.com/delphi-rtti-based-automatic-language-translator-engine/
+
 Translate your application with only two lines of code.
 ![Translator Code](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/5e2722e2-93cf-4628-8995-e76f5214b1e4)
 
