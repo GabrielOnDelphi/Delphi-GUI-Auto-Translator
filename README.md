@@ -1,14 +1,21 @@
 # DelphiLightSaber-AutoTranslator  
-RTTI-based automatic language translator engine.  
+RTTI-based automatic language translator engine.
+Translate your application with only two lines of code.
+![Translator Code](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/5e2722e2-93cf-4628-8995-e76f5214b1e4)
+
+![TranslationEn](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/758c0f96-b4bc-4ac3-b54b-d34d013e1083)
+![TranslationDe](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/576b8cb8-5c82-480c-9965-762c7bedc578)
+![TranslationCn](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/28583504-fbc3-400c-b6c9-cfe0777a1af3)
+
   
   
-{========================================================================================  
+{======================================================================== 
    Gabriel Moraru / Heracle BioSoft SRL  
    2022-09  
    See Copyright.txt  
    RTTI-based automatic language translator engine.  
   
------------------------------------------------------------------------------------------  
+---------------------------------------------------------------------------  
 
    **DESCRIPTION**    
      This class will translate all GUI strings (for example TLabel.Caption, TLabel.Hint, TMenuItem.Caption)  
