@@ -1,0 +1,9 @@
+
+Git.url
+__history/
+/22.0_Win32_Debug/
+/Demo/Win32_Debug
+*.identcache
+*.local
+Demo/IniEditor.lnk
+*.dsk
