@@ -58,7 +58,7 @@ procedure ShowSelectLanguage;
 
 IMPLEMENTATION {$R *.dfm}
 USES
-  ccAppData, ccCore, ccIO, ccIniFileVCL, FormTranslator;
+  cbAppData, cbINIFile, cbDialogs, ccIO, cmIO, FormTranslator;
 
 
 
@@ -112,6 +112,8 @@ end;
 
 procedure TfrmLanguage.ApplyLanguage;
 begin
+  if ListBox.ItemIndex = 0 then EXIT;
+
   if GetSelectedFileName = ''
   then MesajInfo('Please select a language!')
   else
@@ -170,31 +172,20 @@ begin
 end;
 
 
-procedure TfrmLanguage.btnRefreshClick(Sender: TObject);
-begin
- PopulateLanguageFiles;
-end;
-
-
-procedure TfrmLanguage.btnTranslateClick(Sender: TObject);
-begin
- VAR frmTranslator:= TfrmTranslator.Create(Application);
- frmTranslator.Show;
-end;
-
-
 { Returns false if no language file was found }
 function TfrmLanguage.PopulateLanguageFiles: Boolean;
 VAR
    iLastLang: Integer;
    Files: TStringList;
 begin
-  //if ListBox = NIL then EXIT();
   ListBox.Clear;
 
   { Read all files in folder }
   Files:= ListFilesOf(Translator.GetLangFolder, '*.ini', True, FALSE);
   TRY
+   if Files.Count = 0
+   then AppData.LogWarn('No language files detected in '+ Translator.GetLangFolder);
+
    { Remove path & ext, then populate the list box }
    for var s in Files DO
      ListBox.Items.Add(ExtractOnlyName(ExtractFileName(s)));
@@ -223,6 +214,21 @@ begin
 
  Result:= ListBox.Items.Count > 0;
 end;
+
+
+
+procedure TfrmLanguage.btnRefreshClick(Sender: TObject);
+begin
+ PopulateLanguageFiles;
+end;
+
+
+procedure TfrmLanguage.btnTranslateClick(Sender: TObject);
+begin
+ VAR frmTranslator:= TfrmTranslator.Create(Application);
+ frmTranslator.Show;
+end;
+
 
 
 end.

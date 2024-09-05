@@ -4,7 +4,7 @@ INTERFACE
 
 USES
   WinApi.Messages, System.SysUtils, System.Classes, Vcl.StdCtrls, VCL.Forms, Vcl.Controls, Vcl.ExtCtrls,
-  ccAppData;
+  cbAppData, cbINIFile, Vcl.Mask;
 
 TYPE
  TfrmTester = class(TForm)
@@ -20,7 +20,7 @@ TYPE
     procedure btnHelperClick(Sender: TObject);
   protected
   private
-    procedure LateInitialize(VAR Msg: TMessage); message MSG_LateAppInit; // Called after the main form was fully created
+    procedure LateInitialize(VAR Msg: TMessage); message MSG_LateFormInit; // Called after the main form was fully created
   public
  end;
 
@@ -30,8 +30,6 @@ VAR
 IMPLEMENTATION  {$R *.dfm}
 
 USES
-
-
   cvIniFile,
   cTranslate,
   FormTranslator,

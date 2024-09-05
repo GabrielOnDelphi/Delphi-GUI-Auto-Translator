@@ -5,11 +5,13 @@
    2024.05
    See Copyright.txt
 --------------------------------------------------------------------------------------------------------------
+
    RTTI-based automatic language translator engine.
   
 -----------------------------------------------------------------------------------------  
 
-   **DESCRIPTION**  
+   **DESCRIPTION**
+
      This class will translate all GUI strings (for example TLabel.Caption, TLabel.Hint, TMenuItem.Caption)  
      for all live forms in your application.  
      The text is stored in an INI file which can be sent to DeepL or GoogleTranslate for translation.  
@@ -17,7 +19,8 @@
      
 -----------------------------------------------------------------------------------------  
   
-   **Advantages** 
+   **Advantages**
+
      Changing language is life without the need to restart the app  
      The text translated can be seen live, as we translate it  
      The user can create his own translations easily (with the included utility)  
@@ -197,7 +200,7 @@ VAR
 IMPLEMENTATION
 
 USES
-   FormSelectLang, cmVclUtils, ccCore, ccIO, cmINIFileQuick, ccAppData;
+   FormSelectLang, cmVclUtils, ccCore, ccIO, cmIO, cmINIFileQuick, cbAppData;
 
 
 CONST
@@ -210,8 +213,8 @@ constructor TTranslator.Create;
 begin
   inherited Create;
   DontSaveEmpty:= TRUE;
-  ForceDirectories(GetLangFolder);  // Make sure that the folders exists
-  CurLanguage:= ReadString('Last_Language', NoLanguage); { English is the default }
+  ForceDirectories(GetLangFolder);                        // Make sure that the folders exists
+  CurLanguage:= ReadString('Last_Language', DefaultLang); // English is the default
 end;
 
 

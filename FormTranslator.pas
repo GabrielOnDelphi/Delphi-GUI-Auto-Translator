@@ -17,7 +17,7 @@ INTERFACE
 
 USES
   Winapi.Messages, System.SysUtils, System.Classes, Vcl.Controls, Vcl.Forms, Vcl.StdCtrls, Vcl.ExtCtrls, System.IOUtils, Vcl.Mask,
-  cTranslate, ccCore, ccAppData;
+  cTranslate, ccCore, cbDialogs, cbAppData;
 
 TYPE
   TfrmTranslator = class(TForm)
@@ -62,13 +62,12 @@ TYPE
     procedure btnSaveEditorClick  (Sender: TObject);
     procedure btnValuesClick      (Sender: TObject);
     procedure FormClose           (Sender: TObject; var Action: TCloseAction);
-    procedure FormCreate          (Sender: TObject);
     procedure lblLiveFormsClick   (Sender: TObject);
     procedure inetDeepLClick(Sender: TObject);
     procedure InternetLabel1Click(Sender: TObject);
   private
     function GetFileName: string;
-    procedure LateInitialize(VAR Msg: TMessage); message MSG_LateAppInit; // Called after the main form was fully created
+    procedure LateInitialize(VAR Msg: TMessage); message MSG_LateFormInit; // Called after the main form was fully created
   public
   end;
 
@@ -76,14 +75,8 @@ TYPE
 
 IMPLEMENTATION {$R *.dfm}
 USES
-   csExecuteShell, csSystem, ccIO, ccIniFileVcl, FormSelectLang;
+   csExecuteShell, csSystem, ccIO, cmIO, cmIO.Win, cbIniFile, FormSelectLang;
 
-
-
-procedure TfrmTranslator.FormCreate(Sender: TObject);
-begin
-  //
-end;
 
 
 procedure TfrmTranslator.lblLiveFormsClick(Sender: TObject);
@@ -178,7 +171,7 @@ procedure TfrmTranslator.btnLoadClick(Sender: TObject);
 VAR CurrentFile: string;
 begin
  CurrentFile:= Translator.GetLangFolder+ 'English.ini';
- if ccIO.PromptToLoadFile(CurrentFile, FilterTransl, 'Open a translation file...')
+ if PromptToLoadFile(CurrentFile, FilterTransl, 'Open a translation file...')
  then mmoLangEditor.Lines.LoadFromFile(CurrentFile); //todo 1: replace with StringFromFile
 end;
 

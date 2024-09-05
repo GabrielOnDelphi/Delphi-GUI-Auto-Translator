@@ -20,7 +20,6 @@ object frmTranslator: TfrmTranslator
   SnapBuffer = 3
   Visible = True
   OnClose = FormClose
-  OnCreate = FormCreate
   OnDestroy = FormDestroy
   TextHeight = 13
   object lblInfo: TLabel
@@ -33,7 +32,6 @@ object frmTranslator: TfrmTranslator
     Alignment = taCenter
     Caption = '@Info'
     Visible = False
-    ExplicitWidth = 30
   end
   object CubicGroupBox3: TGroupBox
     AlignWithMargins = True

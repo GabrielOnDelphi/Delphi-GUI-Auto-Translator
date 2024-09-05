@@ -15,14 +15,12 @@ object frmLanguage: TfrmLanguage
   Font.Name = 'Tahoma'
   Font.Style = []
   KeyPreview = True
-  OldCreateOrder = True
   Position = poDesigned
   ScreenSnap = True
   ShowHint = True
   SnapBuffer = 3
   OnDestroy = FormDestroy
   OnKeyPress = FormKeyPress
-  PixelsPerInch = 96
   TextHeight = 13
   object grpChoose: TGroupBox
     AlignWithMargins = True

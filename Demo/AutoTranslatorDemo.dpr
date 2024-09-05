@@ -6,13 +6,16 @@ uses
   {$ENDIF }
   Forms,
   FormMain in 'FormMain.pas' {frmTester},
-  ccAppData;
+  cbAppData in '..\..\LightSaber\cbAppData.pas',
+  cTranslate in '..\cTranslate.pas',
+  FormSelectLang in '..\FormSelectLang.pas',
+  FormTranslator in '..\FormTranslator.pas';
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  AppData:= TAppData.Create('Cubic Automatic Translator');
+  AppData:= TAppData.Create('Light Automatic Translator');
   AppData.CreateMainForm(TfrmTester, frmTester, TRUE);
   Application.Run;
 end.

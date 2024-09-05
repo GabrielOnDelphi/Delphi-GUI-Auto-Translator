@@ -7,3 +7,5 @@ __history/
 *.local
 Demo/IniEditor.lnk
 *.dsk
+*.dcu
+*.ficfg
