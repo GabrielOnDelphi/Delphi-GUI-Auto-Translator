@@ -1,33 +1,14 @@
-# Delphi LightSaber - AutoTranslator  
-RTTI-based automatic language translator engine.  
-Offcial page: https://gabrielmoraru.com/delphi-rtti-based-automatic-language-translator-engine/
+# Delphi LightSaber AutoTranslator  
 
-Translate your application with only two lines of code:  
-![Translator Code](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/5e2722e2-93cf-4628-8995-e76f5214b1e4)
-
-
-![TranslationEn](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/758c0f96-b4bc-4ac3-b54b-d34d013e1083)
-
-
-![TranslationDe](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/576b8cb8-5c82-480c-9965-762c7bedc578)
-
-
-![TranslationCn](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/28583504-fbc3-400c-b6c9-cfe0777a1af3)
-
-  
-  
-{===============================================================  
-   Gabriel Moraru / Heracle BioSoft SRL  
-   2022-09  
-   See Copyright.txt  
-   RTTI-based automatic language translator engine.  
-  
-----------------------------------------------------------------     
-
-   **DESCRIPTION**    
+**DESCRIPTION**    
      This class will translate all GUI strings (for example TLabel.Caption, TLabel.Hint, TMenuItem.Caption)  
      for all live forms in your application.  
      The text is stored in an INI file which can be sent to DeepL or GoogleTranslate for translation. 
+
+Official page: https://gabrielmoraru.com/delphi-rtti-based-automatic-language-translator-engine/
+
+Translate your application with only two lines of code:  
+![Translator Code](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/5e2722e2-93cf-4628-8995-e76f5214b1e4)
 
 
 **Downloading the code**  
@@ -113,9 +94,15 @@ _________________
   
     **WARNING**  
        Make sure you make your GUI controls (labels, buttons, etc) large enough. Some languages require more space (more characters) than others.  
-  
-    TESTER  
-       c:\Myprojects\Packages\CubicCommonControls\Demo\Translation system\TranslatorTester.dpr  
-       
+
+
+Example of GUI in 3 languages:
+
+![TranslationEn](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/758c0f96-b4bc-4ac3-b54b-d34d013e1083)
+
+![TranslationDe](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/576b8cb8-5c82-480c-9965-762c7bedc578)
+
+![TranslationCn](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/28583504-fbc3-400c-b6c9-cfe0777a1af3)       
+
 --------------------------------------------------------------------------------------------------------------  
   
