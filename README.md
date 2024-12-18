@@ -1,4 +1,4 @@
-# DelphiLightSaber-AutoTranslator  
+# Delphi LightSaber - AutoTranslator  
 RTTI-based automatic language translator engine.  
 Offcial page: https://gabrielmoraru.com/delphi-rtti-based-automatic-language-translator-engine/
 
