@@ -1,10 +1,10 @@
 # Delphi LightSaber AutoTranslator  
 
-**DESCRIPTION**    
+**DESCRIPTION**  
 
-     This class will translate all components (on a form) that have a text-like property (for example: TLabel.Caption, TLabel.Hint, TMenuItem.Caption)
-     It does this automatically (no line of code necessary) for all forms created with AppData.CreateForm().
-     The text is stored in an INI file which can be sent to DeepL or GoogleTranslate for translation.
+ This class will translate all components (on a form) that have a text-like property (for example: TLabel.Caption, TLabel.Hint, TMenuItem.Caption)
+ It does this automatically (no line of code necessary) for all forms created with AppData.CreateForm().
+ The text is stored in an INI file which can be sent to DeepL or GoogleTranslate for translation.
 
 Official page: https://gabrielmoraru.com/delphi-rtti-based-automatic-language-translator-engine/
 
@@ -15,9 +15,9 @@ Translate your application with only two lines of code:
 
 **Downloading the code**  
 
-This code has been merged with the [LightSaber Core](https://github.com/GabrielOnDelphi/Delphi-LightSaber) library. 
-The new code should be downloaded now from there.
-This repository is now only a placeholder. 
+This code has been merged with the [LightSaber Core](https://github.com/GabrielOnDelphi/Delphi-LightSaber) library.   
+The new code should be downloaded now from there.  
+This repository is now only a placeholder.  
 
 **Features**
 
