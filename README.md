@@ -15,11 +15,11 @@ Translate your application with only two lines of code:
 
 **Downloading the code**  
 
-This code has been merged with the LightSaber library. 
-Therefore, this repository is now only a placeholder and source of information. 
-The new code should be downloaded now from the [LightSaber Core](https://github.com/GabrielOnDelphi/Delphi-LightSaber) repository.
+This code has been merged with the [LightSaber Core](https://github.com/GabrielOnDelphi/Delphi-LightSaber) library. 
+The new code should be downloaded now from there.
+This repository is now only a placeholder. 
 
-  **Features**
+**Features**
 
      Changes the GUI language live, without the need to restart the app.
 
@@ -53,6 +53,7 @@ The new code should be downloaded now from the [LightSaber Core](https://github.
         All text is automatically saved to an INI file.
         The user does not have to collect the text manually from the screen.
         No room for errors (missed/hidden text).
+        The LightSaber\Demo\Tester AutoTranslator\Lang\How to translate.rtf file explain to the end user how to create his own translations.
 
 
    **Limitations**  
