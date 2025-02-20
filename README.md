@@ -15,8 +15,9 @@ Translate your application with only two lines of code:
 
 **Downloading the code**  
 
-This repository is only a placeholder and source of information. It is not updated since 01.2023.
-The code should be downloaded now from the [LightSaber Core](https://github.com/GabrielOnDelphi/Delphi-LightSaber) repository.
+This code has been merged with the LightSaber library. 
+Therefore, this repository is now only a placeholder and source of information. 
+The new code should be downloaded now from the [LightSaber Core](https://github.com/GabrielOnDelphi/Delphi-LightSaber) repository.
 
   **Features**
 
