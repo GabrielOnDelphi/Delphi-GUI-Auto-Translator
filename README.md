@@ -13,9 +13,9 @@ Translate your application with only two lines of code:
  
 Example of GUI in three languages:
 
-![cn](https://github.com/user-attachments/assets/673f1994-f2b2-4e57-8692-d09170f8d5cf)
-![de](https://github.com/user-attachments/assets/1659d414-8fec-43bf-94f8-1fc3bbf6b5b0)
-![en](https://github.com/user-attachments/assets/41485195-5b31-459a-afa6-5f1a44e8fdf0)
+![cn](https://github.com/user-attachments/assets/673f1994-f2b2-4e57-8692-d09170f8d5cf)  
+![de](https://github.com/user-attachments/assets/1659d414-8fec-43bf-94f8-1fc3bbf6b5b0)  
+![en](https://github.com/user-attachments/assets/41485195-5b31-459a-afa6-5f1a44e8fdf0)  
 
 
 --------------------------------------------------------------------------------------------------------------
