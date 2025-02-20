@@ -13,13 +13,10 @@ Translate your application with only two lines of code:
  
 Example of GUI in three languages:
 
-![TranslationEn](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/758c0f96-b4bc-4ac3-b54b-d34d013e1083)
+![cn](https://github.com/user-attachments/assets/673f1994-f2b2-4e57-8692-d09170f8d5cf)
+![de](https://github.com/user-attachments/assets/1659d414-8fec-43bf-94f8-1fc3bbf6b5b0)
+![en](https://github.com/user-attachments/assets/41485195-5b31-459a-afa6-5f1a44e8fdf0)
 
-![TranslationDe](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/576b8cb8-5c82-480c-9965-762c7bedc578)
-
-![TranslationCn](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/28583504-fbc3-400c-b6c9-cfe0777a1af3)       
-
- 
 
 --------------------------------------------------------------------------------------------------------------
 
