@@ -9,6 +9,18 @@
 Translate your application with only two lines of code:   
 ![Translator Code](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/5e2722e2-93cf-4628-8995-e76f5214b1e4)
 
+--------------------------------------------------------------------------------------------------------------  
+ 
+Example of GUI in three languages:
+
+![TranslationEn](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/758c0f96-b4bc-4ac3-b54b-d34d013e1083)
+
+![TranslationDe](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/576b8cb8-5c82-480c-9965-762c7bedc578)
+
+![TranslationCn](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/28583504-fbc3-400c-b6c9-cfe0777a1af3)       
+
+ 
+
 --------------------------------------------------------------------------------------------------------------
 
 **Downloading the code**  
@@ -113,15 +125,5 @@ Official page: https://gabrielmoraru.com/delphi-rtti-based-automatic-language-tr
     **TESTER**
        LightSaber\Demo\Tester AutoTranslator\AutoTranslatorDemo.dpr
 
--------------------------------------------------------------------------------------------------------------
 
-Example of GUI in 3 languages:
 
-![TranslationEn](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/758c0f96-b4bc-4ac3-b54b-d34d013e1083)
-
-![TranslationDe](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/576b8cb8-5c82-480c-9965-762c7bedc578)
-
-![TranslationCn](https://github.com/GabrielOnDelphi/DelphiLightSaber-AutoTranslator/assets/31410401/28583504-fbc3-400c-b6c9-cfe0777a1af3)       
-
---------------------------------------------------------------------------------------------------------------  
-  
